@@ -107,16 +107,17 @@ const Home = () => {
 
                     </div>
                     <div className="container d-flex flex-column gap-5" id={"wip-projects"}>
-                        <div className="container d-flex">
-                            <h1 className="display-5 mb-0 mt-5" data-aos={'fade-right'} data-aos-duration={'1000'}>
-                                Work in progress
-                            </h1>
-                            <div className="container mt-5" data-aos={'fade-left'} data-aos-duration={'1000'} style={{
-                                bottom: '10px',
-                                marginLeft: "10px",
+                        <div className="container d-flex align-items-end" style={{height:"150px"}}>
+                            <div>
+                                <h1 className="display-5 m-0" data-aos={'fade-right'} data-aos-duration={'1000'} >
+                                    Work in progress
+                                </h1>
+                            </div>
+
+                            <div className="container mb-2" data-aos={'fade-left'} data-aos-duration={'1000'} style={{
+                                margin:"0 0 0 10px",
                                 width: "60px",
                                 height: "60px",
-                                position: "relative",
                             }}>
                                 <div id="dot1" style={{
                                     left: "0",
@@ -156,7 +157,7 @@ const Home = () => {
                                     data-aos-duration={'1000'}>A discord bot for my friends server
                                 </li>
                                 <li className="list-group-item fs-4 text" data-aos={'fade-left'}
-                                    data-aos-duration={'1000'}>This website I will maitain it upgraded
+                                    data-aos-duration={'1000'}>This website I will maintain it upgraded
                                 </li>
                                 <li className="list-group-item fs-4 text" data-aos={'fade-left'}
                                     data-aos-duration={'1000'}>A secret project... (at least for now)

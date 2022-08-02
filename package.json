@@ -1,7 +1,7 @@
 {
   "name": "boreas",
   "version": "0.1.0",
-  "homepage": "https://kuroni2.github.io",
+  "homepage": "https://kuroni2.github.io/website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
